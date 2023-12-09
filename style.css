@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maquette</title>
+<style>
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+ }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #ff4500;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Gestion des Joueurs</h1>
+</header>
+
+<section>
+<form method="post" action="index.php">
+<!-- ... Votre formulaire d'édition ... -->
+</form>
+
+<hr>
+
+<form method="post" action="index.php">
+<!-- ... Votre formulaire d'ajout ... -->
+</form>
+
+<table>
+<tr>
+<th>ID</th>
+<th>NOM & PRENOM</th>
+<th>DATE DE NAISSANCE</th>
+<th>OPERATION</th>
+</tr>
+
+<?php
+// ... Votre boucle d'affichage ...
+?>
+</table>
+</section>
+
+<footer>
+ &copy; 2023 Votre Société
+</footer>
+
+</body>
+</html>
